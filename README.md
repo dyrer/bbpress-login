@@ -3,7 +3,7 @@
 Add bbpress login link, register link, forget password links in bbpress forum index pages or bbpress single forum pages or bbpress forum pages or bbpress topic pages.
 
 == Description ==
-Plugin Support Forum: http://tomas.zhu.bz/bbpress-plugin-bbpress-login-register-links-on-forum-page-and-topic.html/<br>
+Plugin Support Forum: 
 
 Bbpress is a great forum product, I used it build many forums, but in recent days when I build a site which focus the forum, I found a problem -- there are no bbpress login link, bbpress register link, bbpress forget password links in bbpress forum index pages or bbpress single forum pages or bbpress forum pages or bbpress topic pages. 
 I try to find a solution, the result is I understand in the current time, I had to put the forum login link at the widget or I had to tell users to how to find the log in link in forum topics or add register/login links in the menu items... 
