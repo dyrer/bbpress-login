@@ -6,8 +6,15 @@
  * Author:      Athanasiadis Evagelos
  * Author URI:  http://athanasiadis.me
  * Version:     0.1
+ * License: GPLv2
  */
 
+ /* Search for translations */
+if (!load_plugin_textdomain('bbpress_notify', false, dirname(plugin_basename(__FILE__)) . '/../../languages/'))
+	{
+	load_plugin_textdomain('bbpress_notify', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+	}
+ 
 register_activation_hook(__FILE__,'bbpress_login_install');
 
 function bbpress_login_install() {
@@ -25,10 +32,16 @@ function bbpress_login_install() {
 
 	}
 
+function bbpress_login_css() {
+  wp_enqueue_style('bbpress-style',
+				   plugins_url('style.css', __FILE__));
+}
+
+add_action('wp_enqueue','bbpress_login_stylesheet');
 
 function bbpressLoginRegisterLinksOnForumPage()
 {
-	echo '<div class="bbpressloginlinks" style="float:right;padding-right:20px;">';
+	echo '<div class="bbpressloginlinks">';
 	if ( !is_user_logged_in() )
 	{
 		$login_url = site_url( 'wp-login.php' );
