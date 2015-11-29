@@ -10,11 +10,8 @@
 }
 
 .bbpress_links {
-    display: block;
     margin-left:20px;
-    color: #FF0000;
-    font-size: 1.1em;
-}
+    }
 
 .bblogout {
     color: #FF0000;
