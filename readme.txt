@@ -11,23 +11,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Add bbpress login link, register link, forget password links in bbpress forum index pages.
 
 == Description ==
-Plugin Support Forum: 
+Plugin Support Forum:
 
-bbPress is a great forum product, but has sacrifice functionality for simplicity. 
+bbPress is a great forum product, but has sacrifice functionality for simplicity.
 This plugin adds a simple solution finding where to login, logout even if you forgot your password.
 Adds over and at the bottom of the forums links to login, logout and forgot password. Messages are localized and retrieved from local core translation files.
 
 == Installation ==
 It is very easy to install and use, please just upload the plugin and active it, no any setting in backend needed, you will find at the top of forum pages, there are log in / register and Lost / Password links,  when a user is logged in, the login link will turn into logout link. Also if you use some log in plugins like theme my login which changed login/register links, the plugin will still works well, how it looks? Please check screenshots. :)
 
- == Frequently Asked Questions == 
- 
-
- == Upgrade Notice == 
+ == Frequently Asked Questions ==
 
 
- == Screenshots == 
- 
+ == Upgrade Notice ==
+
+
+ == Screenshots ==
+
 == Changelog ==
 
 0.1 First release
