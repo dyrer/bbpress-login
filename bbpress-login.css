@@ -3,17 +3,13 @@
  *
  */
 
-
 .bbpressloginlinks {
-    float: right;
-    padding-right: 20px;
-}
-
-.bbpress_links {
     margin-left:20px;
+    margin-right: 10px;
+    float: left;
     }
 
 .bblogout {
-    color: #FF0000;
     margin-left:20px;
+    float: right;
 }

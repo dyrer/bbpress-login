@@ -43,9 +43,9 @@ function bbpress_Login_main() {
 		echo "<a href='$login_url'>".__('Log In').'</a> ';
 
 		$register_url = site_url( 'wp-login.php?action=register' );
-		echo "<a href='$register_url' style='margin-left:20px;'>".__('Register').'</a> ';
+		echo "<a href='<?php site_url( 'wp-login.php?action=register' ); class='bbpressloginlinks' ?>".__('Register').'</a> ';
 
-		echo "<a href='<?php site_url( 'wp-login.php?action=lostpassword' ); class='bbpress_links' ?>".__('Lost Password').'</a> ';
+		echo "<a href='<?php site_url( 'wp-login.php?action=lostpassword' ); class='bbpressloginlinks' ?>".__('Lost Password').'</a> ';
 
 }
 
