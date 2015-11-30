@@ -1,6 +1,6 @@
 === Login bbPress ===
 Contributors: dyrer
-Donate link: http://example.com/
+Donate link: http://athanasiadis.me/
 Tags: bbpress, addons, functionality
 Requires at least: 3.0.1
 Tested up to: 4.4
