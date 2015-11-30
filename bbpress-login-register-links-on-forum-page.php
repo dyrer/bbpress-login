@@ -60,4 +60,3 @@ add_action('bbp_template_after_forums_loop','bbpress_Login_main');
 add_action('bbp_template_before_pagination_loop','bbpress_Login_main');
 add_action('bbp_template_after_single_forum','bbpress_Login_main');
 add_action('bbp_template_before_forums_loop','bbpress_Login_main');
-?>
