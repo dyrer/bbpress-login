@@ -41,8 +41,7 @@ function bbpress_Login_main() {
 	{
 		$login_url = site_url( 'wp-login.php' );
 		echo "<a href='$login_url'>".__('Log In').'</a> ';
-
-		$register_url = site_url( 'wp-login.php?action=register' );
+		
 		echo "<a href='<?php site_url( 'wp-login.php?action=register' ); class='bbpressloginlinks' ?>".__('Register').'</a> ';
 
 		echo "<a href='<?php site_url( 'wp-login.php?action=lostpassword' ); class='bbpressloginlinks' ?>".__('Lost Password').'</a> ';
