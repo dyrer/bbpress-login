@@ -2,7 +2,7 @@
 Contributors: dyrer
 Donate link: http://athanasiadis.me/
 Tags: bbpress, addons, functionality
-Requires at least: 3.0.1
+Requires at least: bbPress installed
 Tested up to: 4.4
 Stable tag: 4.3
 License: GPLv2 or later
