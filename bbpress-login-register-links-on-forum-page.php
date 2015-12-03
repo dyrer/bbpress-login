@@ -50,7 +50,7 @@ function bbpress_Login_main() {
 
 else {
 		$logout_url = wp_logout_url( get_permalink() );
-		echo "<a href='$logout_url' class='bbpressloginlinks'>".__('Log Out').'</a> ';
+		echo "<a href='$logout_url' class='bblogout'>".__('Log Out').'</a> ';
 
 }
 
@@ -61,3 +61,4 @@ add_action('bbp_template_after_forums_loop','bbpress_Login_main');
 add_action('bbp_template_before_pagination_loop','bbpress_Login_main');
 add_action('bbp_template_after_single_forum','bbpress_Login_main');
 add_action('bbp_template_before_forums_loop','bbpress_Login_main');
+
