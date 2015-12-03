@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: bbPress Login Register Links On Forum Topic Pages
+ * Plugin Name: Login bbPress
  * Plugin URI:  http://athanasiadis.me
  * Description: Add bbPress login, register, links on forum pages or topic pages so users can use our forums more easier.
  * Author:      Athanasiadis Evagelos
@@ -49,7 +49,8 @@ function bbpress_Login_main() {
 }
 
 else {
-		echo '<a href="<?php wp_logout_url( get_permalink() ); ?>" class="bblogout">'.__('Log Out').'</a> ';
+		$logout_url = wp_logout_url( get_permalink() );
+		echo "<a href='$logout_url' class='bbpressloginlinks'>".__('Log Out').'</a> ';
 
 }
 
