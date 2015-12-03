@@ -1,14 +1,14 @@
 === Login bbPress ===
 Contributors: dyrer
-Donate link: http://athanasiadis.me/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7CY2NDN34CAEA
 Tags: bbpress, addons, functionality
-Requires at least: bbPress installed
+Requires at least: Installed bbPress 2.5
 Tested up to: 4.4
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add bbpress login link, register link, forget password links in bbpress forum index pages.
+Add bbpress login, register, forget password links in bbpress forum index pages.
 
 == Description ==
 Plugin Support Forum:
